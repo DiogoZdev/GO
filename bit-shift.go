@@ -6,11 +6,9 @@ import (
 
 func main() {
 	x := 10
-
 	showValues(x)
 
 	y := x << 1
-
 	showValues(y)
 }
 
