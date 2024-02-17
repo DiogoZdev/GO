@@ -6,8 +6,21 @@ import (
 
 func main() {
 
+	// for simples
 	for x := 1; x <= 122; x++ {
 		showNumber(x);
+	}
+
+	// for com chave valor usando range
+	list := map[int]string{
+		1: "a",
+		2: "b",
+		3: "c",
+		4: "d",
+	}
+
+	for k, v := range list{
+		fmt.Println(k, v)
 	}
 }
 
